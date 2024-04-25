@@ -1,3 +1,5 @@
 pydantic
 inspector
 devtools
+openai
+instructor
