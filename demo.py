@@ -15,7 +15,6 @@ drawing = client.chat.completions.create(
     response_model=schema.Drawing,
     temperature=0.0,
     messages=[
-        {"role": "user", "content": "Here is a schema."},
         {
             "role": "user",
             "content": "Draw three green 80x20 boxes side by side, labeled foo, bar etc.",
